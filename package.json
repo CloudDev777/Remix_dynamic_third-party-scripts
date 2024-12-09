@@ -1,6 +1,6 @@
 {
   "name": "ac-remix-dynamic-scripts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A React utility for dynamically injecting third-party scripts into your Remix app.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,6 @@
   ],
   "files": [
     "dist",
-    "index.ts",
     "README.md"
   ],
   "author": "abdullahceylan",
