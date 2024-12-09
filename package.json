@@ -1,0 +1,47 @@
+{
+  "name": "ac-remix-dynamic-scripts",
+  "version": "0.0.1",
+  "description": "A React utility for dynamically injecting third-party scripts into your Remix app.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "check": "tsc --noEmit",
+    "prepublishOnly": "yarn build"
+  },
+  "keywords": [
+    "react",
+    "remix",
+    "scripts",
+    "dynamic",
+    "third-party",
+    "inject",
+    "helpscout",
+    "help scout",
+    "clarity",
+    "proprofs"
+  ],
+  "files": [
+    "dist",
+    "index.ts",
+    "README.md"
+  ],
+  "author": "abdullahceylan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdullahceylan/ac-remix-dynamic-scripts"
+  },
+  "readme": "https://github.com/abdullahceylan/ac-remix-dynamic-scripts#readme",
+  "bugs": "https://github.com/abdullahceylan/ac-remix-dynamic-scripts/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/react": "^19.0.1",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
