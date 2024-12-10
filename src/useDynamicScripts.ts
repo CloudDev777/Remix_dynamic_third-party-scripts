@@ -13,7 +13,7 @@ const injectedScripts = new Set<string>();
 export function useDynamicScripts(providerScripts: string[]): void {
   useEffect(() => {
     providerScripts.forEach((scriptContent) => {
-      if (!scriptContent || injectedScripts.has(scriptContent)) {
+      if (!scriptContent || injectedScripts.has(scriptContent) || !document) {
         // Skip empty or already-injected scripts
         return;
       }
