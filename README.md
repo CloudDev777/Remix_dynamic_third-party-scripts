@@ -62,18 +62,18 @@ import { getProviderScript, useDynamicScripts } from "ac-remix-dynamic-scripts";
 
 export async function loader({ request }: LoaderFunctionArgs) {
   const providers = [
-    { name: "helpscout", projectId: "your-helpscout-id" },
-    { name: "clarityms", projectId: "your-clarityms-id" },
+    { name: "helpscout", projectIdOrScript: "your-helpscout-id" },
+    { name: "clarityms", projectIdOrScript: "your-clarityms-id" },
     {
       name: "custom",
-      projectId: `
+      projectIdOrScript: `
         console.log("This is a custom script!");
       `,
     },
   ];
 
   const generatedScripts = providers.map((provider) =>
-    getProviderScript(provider.name, provider.projectId)
+    getProviderScript(provider.name, provider.projectIdOrScript)
   );
 
   return { generatedScripts };
