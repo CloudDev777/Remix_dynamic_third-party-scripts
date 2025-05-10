@@ -16,11 +16,11 @@ You can also inject `custom script` snippets.
 Install the package using npm or yarn:
 
 ```bash
-npm install ac-remix-dynamic-scripts
+npm install Remix_dynamic_third-party-scripts
 
 # or
 
-yarn add ac-remix-dynamic-scripts
+yarn add Remix_dynamic_third-party-scripts
 ```
 
 ## Usage
@@ -179,7 +179,7 @@ We welcome contributions! If you find a bug or have a feature request, please op
 - Clone the repository:
 
   ```bash
-  git clone https://github.com/abdullahceylan/ac-remix-dynamic-scripts.git
+  git clone https://github.com/CloudDev777/Remix_dynamic_third-party-scripts.git
   ```
 
 - Install dependencies:
